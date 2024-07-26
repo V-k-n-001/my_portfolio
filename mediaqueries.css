@@ -224,8 +224,8 @@
       font-size: 1rem;
     }
     .home .mypic {
-      height: 500px;
-      width: 500px;
+      height: 600px;
+      width: 507px;
     }
   }
   @media screen and (max-width: 400px) {
@@ -251,15 +251,20 @@
   }
   @media screen and (max-width: 370px) {
     .home {
-      height: 1000px;
-      margin-top: 2rem;
+      height: 1130px;
+      margin-top: 3rem;
+      
     }
     .prof .prof-skills {
       width: 100%;
     }
     .home .mypic {
-      height: 400px;
-      width: 400px;
+      height: 550px;
+      width: 500px;
+      object-fit: cover;
+     
+
+
     }
     .nav-bar {
       padding: 0rem;
